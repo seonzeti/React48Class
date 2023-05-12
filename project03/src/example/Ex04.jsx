@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../style/ex04.css";
 import { Button } from "react-bootstrap";
-import Board from "../components/Board";
+import Board from "../components/Ex04Board";
 
 const Ex04 = () => {
   // 간단하게 화면 구성 하는 방법 => React Bootstrap 사용하기

@@ -30,16 +30,13 @@ const Ex02 = () => {
   const [likeEmoji, setLikeEmoji] = useState("♡");
   const [likeNum, setLikeNum] = useState(0);
 
-  let btnRef = useRef();
   const handleLike = () => {
     if (likeEmoji == "♡") {
       setLikeEmoji("♥");
       setLikeNum(1);
-      btnRef.current.style.color = "red";
     } else {
       setLikeEmoji("♡");
       setLikeNum(0);
-      btnRef.current.style.color = "black";
     }
   };
 
@@ -50,7 +47,7 @@ const Ex02 = () => {
       {/* 이미지, 좋아요 버튼, +1 버튼, -1버튼 */}
       <img width="300px" src={pic}></img>
       <p className="text">
-        <span className="emoji" onClick={handleLike} ref={btnRef}>
+        <span className="emoji" onClick={handleLike}>
           {likeEmoji}
         </span>
         <span>

@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Ex01 from "./example/Ex01";
 import Ex02 from "./example/Ex02";
@@ -18,6 +18,7 @@ import Ex15 from "./example/Ex15";
 import Ex16 from "./example/Ex16";
 import Ex18 from "./example/Ex18";
 import Ex19 from "./example/Ex19";
+import Ex13 from "./example/Ex13";
 
 function App() {
   return (
@@ -26,12 +27,16 @@ function App() {
       {/* ===============  [STEP 01. 전역 state 관리] =============== */}
       {/* 01. useState 개념 + React Event 개념 */}
       {/* <Ex01 /> */}
+
       {/* 02. useState 좋아요 예제 */}
       {/* <Ex02 /> */}
+
       {/* 03. useState 실습 */}
       {/* <Ex03 /> */}
+
       {/* 04. Mini Game - 주사위 게임을 해보자! */}
-      {/* <Ex04 /> */}
+      {/* <Ex04 />  */}
+
       {/* =============== [STEP 02. 배열함수로 렌더링] =============== */}
       {/* 05. Map함수*/}
       {/* <Ex05 /> */}
@@ -39,6 +44,7 @@ function App() {
       {/* <Ex06 /> */}
       {/* 07. Filter 함수 */}
       {/* <Ex07 /> */}
+
       {/*===============  [STEP 03. React Hooks 의 종류] ===============*/}
       {/* 08. useRef */}
       {/* <Ex08 /> */}
@@ -51,6 +57,8 @@ function App() {
       {/* 12. useContext 실습 */}
       {/* <Ex12 /> */}
       {/* 13. Mini Project - Todo List */}
+      <Ex13 />
+
       {/* =============== [STEP 04. LifeCycle] =============== */}
       {/* 14. Class Component */}
       {/* <Ex14 /> */}

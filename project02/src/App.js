@@ -3,6 +3,8 @@ import Member from "./components/Member";
 import MenuItem from "./components/MenuItem";
 
 function App() {
+  // EXTENSION 설치 snippets
+  // react를 편리하게 사용하기 위한 익스텐션
   // rafce : 컴포넌트의 구조를 만드는 단축키
 
   // 컴포넌트 : 리액트로 만들어진 앱을 이루는 최소 단위

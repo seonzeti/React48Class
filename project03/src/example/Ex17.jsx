@@ -12,9 +12,7 @@ const Ex17 = () => {
   const throwDice = () => {
     setComDice(makeRandom());
     setMyDice(makeRandom());
-  };
 
-  useEffect(() => {
     if (myDice > comDice) {
       setResult("승리!!");
     } else if (myDice < comDice) {
@@ -22,7 +20,9 @@ const Ex17 = () => {
     } else {
       setResult("동점~");
     }
-  }, [myDice]);
+  };
+
+  useEffect(() => {}, [myDice]);
 
   return (
     <div>

@@ -32,5 +32,32 @@ li {
 button {
   height: 30px;
   font-size: 0.8em;
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  background-color: #96c0ff95;
+  border: 0px;
+}
+
+input[type="checkbox"] {
+  margin: 3%;
+}
+
+li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo-text{
+  /* background-color: red; */
+  width: 300px;
+  display: block;
+}
+
+.list-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"]{
+  width: 300px;
 }

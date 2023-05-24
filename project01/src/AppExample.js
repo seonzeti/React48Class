@@ -21,6 +21,7 @@ function AppExample() {
   // 조건4) 12,1,2월 : 겨울
 
   let season = "";
+  1;
   if (month >= 3 && month <= 5) {
     season = "봄";
   } else if (month >= 6 && month <= 8) {

@@ -10,7 +10,7 @@ const Ex02 = () => {
     => <img src={이미지변수}/>
 
   2. css의 background-image 사용하기 : background-image : url(경로)
-
+ 
   3. public 내 이미지 접근하기
     -> public 내에 img 폴더를 만든 후 이미지 파일을 보관 
     -> 이 때, 별도로 import는 따로 작성하지 않는다. 
@@ -39,8 +39,6 @@ const Ex02 = () => {
       setLikeNum(0);
     }
   };
-
-  // 완료 시, 꽉찬하트로 좋아요 5개 만들어서 캡쳐 => slack
 
   return (
     <div className="post">

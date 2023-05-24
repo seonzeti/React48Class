@@ -14,7 +14,7 @@ const ListItem = ({ todo, index }) => {
             textDecoration: todo.completed ? "line-through" : "none",
           }}
         >
-          {todo.text}
+          <span className="todo-text">{todo.text}</span>
         </label>
         <button onClick={() => handleTodoDelete(index)}>Delete</button>
       </li>

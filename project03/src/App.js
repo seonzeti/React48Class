@@ -19,6 +19,8 @@ import Ex16 from "./example/Ex16";
 import Ex18 from "./example/Ex18";
 import Ex19 from "./example/Ex19";
 import Ex13 from "./example/Ex13";
+import Ex17 from "./example/Ex17";
+import Ex17B from "./example/Ex17B";
 
 function App() {
   return (
@@ -35,7 +37,7 @@ function App() {
       {/* <Ex03 /> */}
 
       {/* 04. Mini Game - 주사위 게임을 해보자! */}
-      {/* <Ex04 />  */}
+      {/* <Ex04 /> */}
 
       {/* =============== [STEP 02. 배열함수로 렌더링] =============== */}
       {/* 05. Map함수*/}
@@ -46,13 +48,9 @@ function App() {
       {/* <Ex07 /> */}
 
       {/*===============  [STEP 03. React Hooks 의 종류] ===============*/}
-      {/* 08. useRef */}
-      {/* <Ex08 /> */}
-      {/* 09. useRef 실습 - (미완) */}
-      {/* <Ex09 /> */}
       {/* 10. 양방향 데이터 전달 */}
       {/* <Ex10 /> */}
-      {/* 11. context API (useContext) 미완 */}
+      {/* 11. context API (useContext) */}
       {/* <Ex11 /> */}
       {/* 12. useContext 실습 */}
       {/* <Ex12 /> */}
@@ -60,6 +58,7 @@ function App() {
       <Ex13 />
 
       {/* =============== [STEP 04. LifeCycle] =============== */}
+
       {/* 14. Class Component */}
       {/* <Ex14 /> */}
       {/* 15. LifeCycle */}
@@ -67,6 +66,13 @@ function App() {
       {/* 16. Function Component Life Cycle (useEffect) */}
       {/* <Ex16 /> */}
       {/* 17. useEffect 실습  미완 */}
+      {/* <Ex17 /> */}
+      {/* <Ex17B /> */}
+
+      {/* 08. useRef */}
+      {/* <Ex08 /> */}
+      {/* 09. useRef 실습 - (미완) */}
+      {/* <Ex09 /> */}
       {/* =============== [STEP 05. API] =============== */}
       {/* 18. useEffect를 이용한 open API 실습 */}
       {/* <Ex18 /> */}

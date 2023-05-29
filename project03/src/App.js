@@ -22,6 +22,7 @@ import Ex13 from "./example/Ex13";
 import Ex17 from "./example/Ex17";
 import Ex17B from "./example/Ex17B";
 import Ex20 from "./example/Ex20";
+import Ex21 from "./example/Ex21";
 
 function App() {
   return (
@@ -67,6 +68,7 @@ function App() {
       {/* <Ex16 /> */}
       {/* 17. useEffect 실습  미완 */}
       {/* <Ex17 /> */}
+      {/* <Ex21 /> */}
       {/* =============== [STEP 05. API] =============== */}
       {/* 18. useEffect를 이용한 open API 실습 */}
       {/* <Ex18 /> */}

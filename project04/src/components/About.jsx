@@ -29,7 +29,9 @@ const About = () => {
           마이페이지 이동
         </button>
       </div>
-      <Link to="/product/1">[1] 캠핑용품 저랑 거래하실 분 있으신가요?</Link>
+      <Link to="/product/1?popluar='true'">
+        [1] 캠핑용품 저랑 거래하실 분 있으신가요?
+      </Link>
       <br />
       <Link to="/product/2">[2] 정보처리기사 스터디 하실 분?</Link>
       <br />

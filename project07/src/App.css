@@ -1,0 +1,33 @@
+body{
+  background-color: black;
+  color: whitesmoke;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movie-card{
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie-card>div{
+  flex-basis: 50%;
+}
+
+.first-section {
+  display: flex;
+  justify-content: right;
+  margin-right: 30px;
+}
+
+.second-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+
+}
